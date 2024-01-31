@@ -1,0 +1,56 @@
+{
+    "input": {
+      "input_file_name": "/Users/emiliebarreau/alice/ServiceTask_Analysis/Analysis_LHC22o_pass5_skimQC1/TM_Reassociation/matchedQualityCuts/histoToFit_LHC22o_Global_KFPCA.root",
+    "input_name": [
+      "Mass"
+    ],
+      "pdf_dictionary": {
+        "pdf": ["CB2", "VWG", "SUM"],
+        "pdfName": ["Jpsi", "Bkg", "SUM"],
+        "pdfColor": [861, 1],
+        "pdfNameForLegend": ["J/#psi", "Background", "Fit"],
+        "pdfStyle": [1,  2],
+        "parVal": [
+          [3.096, 0.7e-01, 0.7722, 8.1553, 1.3191, 1.6240],
+          [2, 5, 1],
+          [20000, 4.e+5]
+        ],
+        "parLimMin": [
+          [2.9, 4.0e-02, 0.7722, 8.1553, 1.3191, 1.6240],
+          [-10, 0, -100],
+          [100, 1000]
+        ],
+        "parLimMax": [
+          [3.5, 1.2e-01, 0.7722, 8.1553, 1.3191, 1.6240],
+          [10, 100, 100],
+          [9.e+5, 1.e+6]
+        ],
+        "parName": [
+          ["mean_Jpsi", "width_Jpsi", "a_Jpsi", "b_Jpsi", "c_Jpsi", "d_Jpsi"],
+          ["aa", "bb", "cc"],
+          ["sig_Jpsi", "bkg"]
+        ],
+      "fitRangeMin": [
+        2.2,
+        ],
+      "fitRangeMax": [
+        4.8,
+        ],
+        "fitMethod": "likelyhood",
+        "doResidualPlot": true,
+        "doPullPlot": true, 
+        "doCorrMatPlot": true,
+        "doAlicePlot": true,
+        "parForAlicePlot": ["mean_Jpsi", "width_Jpsi", "sig_Jpsi"],
+        "parNameForAlicePlot": ["#mu_{J/#psi}", "#sigma_{J/#psi}", "#it{N}_{J/#psi}"],
+        "text": [
+          [0.20, 0.87, "LHC22o apass5 Reass Global CB2+VWG, #sqrt{#it{s}} = 13.6 TeV"], 
+          [0.20, 0.80, "2.5 < #it{y} < 3.6, J/#psi #rightarrow #mu^{+}#mu^{-}"]
+        ]
+      }
+  },
+  "output": {
+    
+    "output_file_name": "output/pp_apass5/LHC22o_apass5/"
+  }
+}
