@@ -1,6 +1,6 @@
 {
     "input": {
-      "input_file_name": "/Users/emiliebarreau/alice/ServiceTask_Analysis/Analysis_LHC22o_pass5_skimQC1/TM_Reassociation/matchedQualityCuts/histoToFit_LHC22o_Global_KFPCA.root",
+      "input_file_name": "/Users/emiliebarreau/alice/ServiceTask_Analysis/Analysis_LHC22o_pass5_skimQC1/TM_Reassociation/matchedQualityCuts/histoToFitbis_LHC22o_Global_KFPCA.root",
     "input_name": [
       "Mass"
     ],
@@ -51,6 +51,6 @@
   },
   "output": {
     
-    "output_file_name": "output/pp_apass5/LHC22o_apass5/"
+    "output_file_name": "output/LHC22o_apass5bisS/"
   }
 }
